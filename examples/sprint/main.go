@@ -3,14 +3,15 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"golang.org/x/term"
 	"log"
 	"os"
 	"strconv"
 	"syscall"
 	"time"
 
-	jira "github.com/andygrunwald/go-jira"
+	"golang.org/x/term"
+
+	jira "github.com/natenho/go-jira"
 )
 
 // This example implement the behaviour of Jira's "Complete sprint" button.
